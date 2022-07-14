@@ -3,4 +3,4 @@ project(Soundprocessing)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Soundprocessing main.cpp src/Header/struct_Header.h)
+add_executable(Soundprocessing main.cpp src/Header/Wave.cpp src/Header/Wave.h src/Header/Plotter.cpp src/Header/Plotter.h)
